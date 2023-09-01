@@ -13,3 +13,10 @@ means that the compiler decides the type of the variable, based on the value
 ## Define variable => variablename := value
 
 numTasks := 3 // inferred to be an integer
+```
+x := 42           // int
+y := 3.14         // float64
+
+var a int
+b := a // b is also an int
+```
