@@ -8,6 +8,8 @@ bool- stores values with two states: true or false
 ```
 ## Define variable => var variablename type = value
 
-## 2. With the := sign:
+## 2. With the := sign: - Short assignment operator
 means that the compiler decides the type of the variable, based on the value
 ## Define variable => variablename := value
+
+numTasks := 3 // inferred to be an integer
